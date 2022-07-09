@@ -20,3 +20,4 @@ def merge(intervals):
     
 nums =  [[1,4],[0,2],[3,5]]
 print(merge(nums))
+
