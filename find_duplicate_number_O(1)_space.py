@@ -45,9 +45,6 @@ def findDuplicate(nums):
         slow = nums[slow] #moving slow
         if slow == slow2: #where they intersect
             return slow #this will always be the answer            
-    
-    
-    
-    
+
 nums = [1,3,4,2,2]
 print(findDuplicate(nums))
