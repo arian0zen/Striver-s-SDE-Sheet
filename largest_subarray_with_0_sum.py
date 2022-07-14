@@ -3,7 +3,7 @@ from calendar import c
 
 
 def sumzero(nums):
-    res = []
+    res = []  
     current_sum = nums[0]
     for i in range(1, len(nums)):
         current_sum += nums[i]
