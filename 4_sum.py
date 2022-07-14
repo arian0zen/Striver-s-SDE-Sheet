@@ -11,6 +11,8 @@ def fourSum(nums, target):
         return res
     nums.sort()
     for i in range(n):
+        if i > 0 and nums[i] == nums[i-1]:  #this line to get check if we are checking duplicates! if duplicates found, simply skip that iteration
+            continue
             
         target3 = target - nums[i]
         for j in range(i+1, n):
