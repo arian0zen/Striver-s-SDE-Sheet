@@ -19,7 +19,7 @@ class Solution:
                 return True
         return False
 
-O(n) || O
+#O(n) || O(n)
 '''using slow and fast pointer, if there is cycle then fast must collide with slow, fast moves twice as fast as slow. fast = fast.next.next'''
 
 
