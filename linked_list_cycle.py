@@ -41,3 +41,4 @@ class Solution:
         return False
         
 # O(n) || O(1)
+#life is hard man, be happy
