@@ -5,6 +5,7 @@ A pair ('ARR[i]', 'ARR[j]') is said to be an inversion when:
 1. 'ARR[i] > 'ARR[j]' 
 2. 'i' < 'j'
 
+
 Where 'i' and 'j' denote the indices ranging from [0, 'N').'''
 #look at notebook, explanation written there (this one is personal note)
 def mergeSort(arr, n):
